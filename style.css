@@ -10,6 +10,17 @@ h1 {
 	padding-bottom: 20px;
     padding-left: 25px;
 }
+.food{
+    font-family: 'Rajdhani', sans-serif;
+	margin-left: 1.66%;
+	font-size: 25px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+	font-weight: 50;
+	text-transform: uppercase;
+    border:5px solid #af181818;
+
+}
 .item img:hover{
     transform: scale(1.05);
     transition: all ease ;
@@ -57,6 +68,10 @@ img{
     align-items: center;
     width:400px;
     text-align: center;
+    border:5px solid #af181818;
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 
 }
 .food-container img:hover{
