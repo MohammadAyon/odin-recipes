@@ -9,6 +9,7 @@ h1 {
 	width: 95%;
 	padding-bottom: 20px;
     padding-left: 25px;
+    color: black;
 }
 .food{
     font-family: 'Rajdhani', sans-serif;
@@ -18,9 +19,23 @@ h1 {
     padding-right: 2.5rem;
 	font-weight: 50;
 	text-transform: uppercase;
-    border:5px solid #af181818;
+    
 
 }
+.ingredients{
+    font-family: 'Rajdhani', sans-serif;
+	margin-left: 1.66%;
+	font-size: 25px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+	font-weight: 50;
+	text-transform: uppercase;
+    border:5px solid #af181818;
+}
+
+
+
+
 .item img:hover{
     transform: scale(1.05);
     transition: all ease ;
@@ -36,7 +51,13 @@ img{
    
 }
 
+.Title{
+    
+    font-size: 25px;
+    font-weight: bolder;
 
+    
+}
 .container{
 	display:flex;
 	flex-direction: row;
