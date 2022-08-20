@@ -1,5 +1,5 @@
-body {background-color: #F2E5D7;}
-
+body {background-color: #FBE3D1;}
+*{padding: none;}
 h1 {
 	font-family: Raleway;
 	margin-left: 1.66%;
@@ -11,7 +11,19 @@ h1 {
 	width: 95%;
 	padding-bottom: 20px;
     padding-left: 25px;
-    color: black;
+    color: #2D0B00;
+}
+h5{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	
+   
+    font-size: 45px;
+    
 }
 a:link { text-decoration: none; }
 
@@ -25,16 +37,16 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }*/
 .food{
     font-family: 'Rajdhani', sans-serif;
-	margin-left: 1.66%;
+	/*margin-left: 1.66%;
 	font-size: 25px;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-	font-weight: 50;
+	font-weight: 50;*/
 	text-transform: uppercase;
     
 
 }
-.ingredients{
+.list{
     font-family: 'Rajdhani', sans-serif;
 	margin-left: 1.66%;
 	font-size: 25px;
@@ -42,7 +54,11 @@ a:active { text-decoration: none; }*/
     padding-right: 2.5rem;
 	font-weight: 50;
 	text-transform: uppercase;
-    border:5px solid #af181818;
+    border-top:5px solid #af181818;
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  
 }
 
 
@@ -110,7 +126,7 @@ img{
     align-items: center;
     width:400px;
     text-align: center;
-    border:5px solid #af181818;
+    border-right:5px solid #af181818;
     padding-top: 2.5rem;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
